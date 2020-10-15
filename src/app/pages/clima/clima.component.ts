@@ -9,6 +9,8 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ClimaComponent implements OnInit {
   checkoutForm;
+  name = 'Angular';
+  display = 'listview'
   
   constructor(
     private activatedRoute: ActivatedRoute
@@ -16,6 +18,12 @@ export class ClimaComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+
+
+  mudarDisplay(){
+    this.display='none';
   }
 
   onSubmit(customerData) {

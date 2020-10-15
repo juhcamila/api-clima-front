@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "api-clima-front": {
@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "api-clima-front"
+    }
+  },
+  "defaultProject": "api-clima-front",
+  "cli": {
+    "analytics": "4cb0a61b-8153-49a3-b702-d160bd302f5f"
+  }
 }

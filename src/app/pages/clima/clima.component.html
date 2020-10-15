@@ -1,16 +1,18 @@
 
+<div class="content" role="main">
 
-<form (ngSubmit)="onSubmit(checkoutForm.value)">
+    <h1 class="text-dark text-center font-italic" style="margin-bottom: 20px;">Digite o nome da cidade  que deseja o clima</h1>
 
-  <div>
-    <label for="name">
-      Name
-    </label>
-    <input id="name" type="text" formControlName="name" class="form-control">
-  </div>
-
-
-
-  <button class="button" type="submit">Purchase</button>
-
-</form>
+    <form (ngSubmit)="onSubmit(checkoutForm.value)">
+    
+      <div class="form-group">
+        <input id="name" type="text" formControlName="name" class="form-control form-control-lg">
+     </div>
+    
+    
+    
+      <button class="button" type="submit" class="btn btn-primary form-control">Procurar</button>
+    
+    </form>
+    
+</div>
