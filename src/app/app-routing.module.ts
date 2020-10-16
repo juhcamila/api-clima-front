@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ClimaComponent } from './pages/clima/clima.component';
 
 const routes: Routes = [
-  {path: 'clima', component: ClimaComponent}
+  {path: '', component: ClimaComponent}
 ];
 
 @NgModule({
